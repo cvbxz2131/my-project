@@ -33,6 +33,7 @@ In [`Rank54.lean`](Rank54.lean), `not_published_bound` refutes the stated univer
 
 The note, Lean formalization and Python verifier were prepared with OpenAI Codex.
 
-## Related note
+## Related notes
 
-A separate supplement proves the three-event case of Dickey and Rosenberg's Huffman-tree conjecture. [Huffman trees maximize branching histories with three events](three-events/README.md)
+- [Huffman trees maximize branching histories with three events](three-events/README.md)
+- [A three-exchanger counterexample to Chang et al.'s unimodality conjecture](heat-exchanger-unimodality/README.md)

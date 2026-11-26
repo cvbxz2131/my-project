@@ -52,3 +52,7 @@ Python 脚本从零开始枚举。它在 15 个顶点上计得 **104 种**最短
 Arun 的树为每个分支配置两片私有叶，另设一个公共中心，共 $3k+1$ 个顶点。本目录的树让中心也承担一组，取 $k-1$ 个外围基点，共 $3k$ 个顶点。两者的下界都来自同一条传播规则。Arun 的归档包含文字证明和 Python 验证；本目录增加了一个阶数最小的见证和可重放的 Lean 证明。成对私有叶的电力支配极值构造也有更早的文献。对 15 顶点改进和 Lean 形式化的独立优先权，此处不作认定。[Arun 的构造](https://github.com/rohanarun/autographforge-tree-counterexample/blob/e2be55776572fe18c21a44cfa5d8e8c65b807c7b/README.md) · [电力支配极值图族](https://doi.org/10.1016/j.disc.2006.03.037)
 
 技术说明、Lean 形式化和 Python 复核脚本由 OpenAI Codex 协助完成。
+
+## 相关说明
+
+- [换热网络年费用单谷性猜想的三设备反例](heat-exchanger-unimodality/README.md)
