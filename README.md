@@ -32,3 +32,7 @@ python check_tree.py
 In [`Rank54.lean`](Rank54.lean), `not_published_bound` refutes the stated universal inequality and `unbounded_at_three` gives the family result. The file checks that the witness has 15 distinct vertices and proves the exact two parameters directly from the process rules. It was compiled with warnings treated as errors, and the compiled module passed kernel replay with `leanchecker`. The minimum-order argument above uses the published bound on $\gamma_P$ and is given in prose. The [Python verifier](check_tree.py) independently finds $b=3$ and $\gamma_P=5$ for the finite witness.
 
 The note, Lean formalization and Python verifier were prepared with OpenAI Codex.
+
+## Related note
+
+A separate supplement proves the three-event case of Dickey and Rosenberg's Huffman-tree conjecture. [Huffman trees maximize branching histories with three events](three-events/README.md)
