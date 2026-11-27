@@ -41,3 +41,4 @@ The note, Lean formalization and Python verifier were prepared with OpenAI Codex
 - [Spectral instability of planar relative equilibria of five, six, and seven equal masses](equal-mass-relative-equilibria/README.md)
 - [The exact maximum equilibrium count for rank-one Kuramoto coupling](kuramoto-equilibria/README.md)
 - [Global Wigner negativity in dimension five and strict Hesse optimality](quantum-extrema/README.md)
+- [Two-domination under vertex and edge deletion in toroidal grids](toroidal-two-domination/README.md)
