@@ -59,3 +59,4 @@ Arun 的树为每个分支配置两片私有叶，另设一个公共中心，共
 - [18 光子双模纠错码的多面体对称性排除](photon-loss-symmetry/README.md)
 - [平面等质量五、六、七体相对平衡的谱不稳定性](equal-mass-relative-equilibria/README.md)
 - [秩一耦合 Kuramoto 模型的精确平衡数上界](kuramoto-equilibria/README.md)
+- [五能级 Wigner 负性的全局极值与 Hesse SIC 的严格最优性](quantum-extrema/README.md)
