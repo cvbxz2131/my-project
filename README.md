@@ -39,3 +39,4 @@ The note, Lean formalization and Python verifier were prepared with OpenAI Codex
 - [A three-exchanger counterexample to Chang et al.'s unimodality conjecture](heat-exchanger-unimodality/README.md)
 - [An elementary symmetry restriction on 18-photon loss codes](photon-loss-symmetry/README.md)
 - [Spectral instability of planar relative equilibria of five, six, and seven equal masses](equal-mass-relative-equilibria/README.md)
+- [The exact maximum equilibrium count for rank-one Kuramoto coupling](kuramoto-equilibria/README.md)

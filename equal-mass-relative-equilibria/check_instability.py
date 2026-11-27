@@ -14,6 +14,8 @@ SCALE = 10**15
 PADDING = SCALE // 10**6
 REPORT_DIGEST = "f7d05ecd636c220dad2616b3041742a8dbd3f3c40a32f5111e84d2a3fece85a0"
 BOX_COUNTS = {5: 5, 6: 9, 7: 14}
+GROWTH_RATE = Fraction(2, 5)
+TRACE_TERM_BOUNDS = {1: 1, 2: 8, 3: 356}
 COORDINATE = re.compile(
     r"^i: (\d+) X: \[([^,]+), ([^\]]+)\] Y: \[([^,]+), ([^\]]+)\]", re.M
 )
@@ -171,12 +173,21 @@ def main(archive):
             power, upper = trace_test(jacobian(box))
             if upper >= 0:
                 raise SystemExit(f"No strict trace bound for n={n}, position {label}")
-            print(f"n={n} position={label:>2} k={power} trace_upper={upper}/{SCALE}")
-            results.append((power, upper))
-        counts = Counter(power for power, _ in results)
-        worst = max(upper for _, upper in results)
+            # The two zero and six unit imaginary eigenvalues contribute 6 to each trace.
+            growth_slack = (
+                6 - Fraction(upper, SCALE)
+                - (4 * n - 8) * TRACE_TERM_BOUNDS[power] * GROWTH_RATE ** (2 * power)
+            )
+            if growth_slack <= 0:
+                raise SystemExit(f"No strict growth bound for n={n}, position {label}")
+            print(f"n={n} position={label:>2} k={power} trace_upper={upper}/{SCALE} "
+                  f"growth_slack={growth_slack}")
+            results.append((power, upper, growth_slack))
+        counts = Counter(power for power, _, _ in results)
+        worst = max(upper for _, upper, _ in results)
+        min_slack = min(slack for _, _, slack in results)
         print(f"n={n} verified={len(results)} counts_by_k={dict(sorted(counts.items()))} "
-              f"largest_upper={worst}/{SCALE}")
+              f"largest_upper={worst}/{SCALE} min_growth_slack={min_slack}")
 
 
 if __name__ == "__main__":
