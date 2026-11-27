@@ -42,3 +42,4 @@ The note, Lean formalization and Python verifier were prepared with OpenAI Codex
 - [The exact maximum equilibrium count for rank-one Kuramoto coupling](kuramoto-equilibria/README.md)
 - [Global Wigner negativity in dimension five and strict Hesse optimality](quantum-extrema/README.md)
 - [Two-domination under vertex and edge deletion in toroidal grids](toroidal-two-domination/README.md)
+- [The minimum order of a D(4) graph](dominator-four-minimum/README.md)

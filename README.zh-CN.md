@@ -61,3 +61,4 @@ Arun 的树为每个分支配置两片私有叶，另设一个公共中心，共
 - [秩一耦合 Kuramoto 模型的精确平衡数上界](kuramoto-equilibria/README.md)
 - [五能级 Wigner 负性的全局极值与 Hesse SIC 的严格最优性](quantum-extrema/README.md)
 - [环面网格 2-支配数的最小删点反例与删边定理](toroidal-two-domination/README.md)
+- [支配数、色数和支配着色数均为 4 的图至少有 12 个顶点](dominator-four-minimum/README.md)
