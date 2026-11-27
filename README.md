@@ -38,3 +38,4 @@ The note, Lean formalization and Python verifier were prepared with OpenAI Codex
 - [Huffman trees maximize branching histories with three events](three-events/README.md)
 - [A three-exchanger counterexample to Chang et al.'s unimodality conjecture](heat-exchanger-unimodality/README.md)
 - [An elementary symmetry restriction on 18-photon loss codes](photon-loss-symmetry/README.md)
+- [Spectral instability of planar relative equilibria of five, six, and seven equal masses](equal-mass-relative-equilibria/README.md)

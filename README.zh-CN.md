@@ -57,3 +57,4 @@ Arun 的树为每个分支配置两片私有叶，另设一个公共中心，共
 
 - [换热网络年费用单谷性猜想的三设备反例](heat-exchanger-unimodality/README.md)
 - [18 光子双模纠错码的多面体对称性排除](photon-loss-symmetry/README.md)
+- [平面等质量五、六、七体相对平衡的谱不稳定性](equal-mass-relative-equilibria/README.md)
