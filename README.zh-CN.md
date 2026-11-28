@@ -63,3 +63,4 @@ Arun 的树为每个分支配置两片私有叶，另设一个公共中心，共
 - [环面网格 2-支配数的最小删点反例与删边定理](toroidal-two-domination/README.md)
 - [支配数、色数和支配着色数均为 4 的图至少有 12 个顶点](dominator-four-minimum/README.md)
 - [二维减法游戏的最优外侧边界与两个全棋盘判定](planar-subtraction/README.md)
+- [平面四类三角形猜想的七点上界与正七边形唯一性](four-triangle-conjecture/README.md)
